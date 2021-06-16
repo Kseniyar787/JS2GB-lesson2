@@ -130,8 +130,8 @@ function mainCalc() {
     let sumcal = burger.caloriesSum();
     // вывести все цифры в верстку
 
-    document.querySelector(".sumRub").value = sum + " руб.";
-    document.querySelector(".sumСalorie").value = sumcal + " кал.";
+    document.querySelector(".sumRub").innerHTML = sum + " руб.";
+    document.querySelector(".sumСalorie").innerHTML = sumcal + " кал.";
 
 
 }

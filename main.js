@@ -69,6 +69,9 @@ list.render();
 list.itemSum();
 
 
+
+
+
 class backet {
     constructor(container = ".btn-cart") {
 
